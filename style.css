@@ -1,0 +1,21 @@
+h1 {
+	text-align: center;
+}
+li {
+	text-decoration: none;
+	display: inline;
+}
+
+button {
+	width: 500px;
+	height: 400px;
+	padding: 60px;
+	margin-top: 10px;
+	font-size: large;
+	background-color: yellow;
+}
+
+button:hover {
+	background-color: white;
+	font-weight: bold;
+}

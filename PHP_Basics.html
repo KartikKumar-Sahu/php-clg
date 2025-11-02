@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHP Basics Programs</title>
+    <style>
+        .List {
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+        .List:hover {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <a class="List" href="javascript:void(0)" onclick="loadProgramAndOutput('./Program_Folder/Program1.php')">1. Variables in PHP</a><br />
+    <a class="List" href="javascript:void(0)" onclick="loadProgramAndOutput('./Program_Folder/Program10.html')">2. Order by Command</a><br />
+    <a class="List" href="javascript:void(0)" onclick="loadProgramAndOutput('./Program_Folder/Program11.html')">3. Like Command</a><br />
+    <a class="List" href="javascript:void(0)" onclick="loadProgramAndOutput('./Program_Folder/Program12.html')">4. Group by Clause</a><br />
+    <a class="List" href="javascript:void(0)" onclick="loadProgramAndOutput('./Program_Folder/Program13.html')">5. Having Clause</a><br />
+
+    <script>
+        function loadProgramAndOutput(programSrc) {
+            // Load the program into the "Program" iframe
+            parent.frames["Program"].location.href = programSrc;
+        }
+    </script>
+</body>
+</html>
